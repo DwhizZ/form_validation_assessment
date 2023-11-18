@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 import '../../../config/global_widgets/text_inputs_field.dart';
@@ -46,7 +45,20 @@ class SecondPageTextFields extends StatelessWidget {
           myIcon: Icons.lock_outline,
           onChanged: provider.onChangedPassword,
           hint: '**********',
+          obscureText: true,
           validator: provider.passwordValidator,
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 30),
+          child: TextinputsField(
+            controller: provider.password2,
+            label: 'CONFIRM  PASSWORD',
+            myIcon: Icons.lock_outline,
+            onChanged: provider.onChangedPassword2,
+            hint: '**********',
+            obscureText: true,
+            validator: provider.passwordValidator2,
+          ),
         ),
       ],
     );

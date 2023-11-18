@@ -29,17 +29,6 @@ class SecondPage extends StatelessWidget {
                     smallText: 'Create a nea account'),
                 SecondPageTextFields(provider: provider),
                 Padding(
-                  padding: const EdgeInsets.only(bottom: 30),
-                  child: TextinputsField(
-                    controller: provider.password2,
-                    label: 'CONFIRM  PASSWORD',
-                    myIcon: Icons.lock_outline,
-                    onChanged: provider.onChangedPassword2,
-                    hint: '**********',
-                    validator: provider.passwordValidator2,
-                  ),
-                ),
-                Padding(
                   padding: const EdgeInsets.only(bottom: 20),
                   child: MyElevatedButton(
                     onButtonClick: () {},
