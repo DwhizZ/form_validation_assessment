@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:form_validation_test/src/config/global_widgets/final_texts.dart';
 import 'package:form_validation_test/src/config/global_widgets/header_introduction.dart';
 import 'package:form_validation_test/src/config/global_widgets/my_elevated_button.dart';
-import 'package:form_validation_test/src/config/global_widgets/text_inputs_field.dart';
+
 import 'package:form_validation_test/src/pages/page2/components/second_page_provider.dart';
 import 'package:provider/provider.dart';
 import 'components/my_back_button.dart';
