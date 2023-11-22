@@ -1,18 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import '../../../../config/global_widgets/text_inputs_field.dart';
-import '../../provider/second_page_provider.dart';
+import '../../provider/create_account_provider.dart';
 
 class SecondPageTextFields extends StatelessWidget {
-  const SecondPageTextFields({
-    super.key,
-    required this.provider,
-  });
-
-  final SecondPageProvider provider;
+  const SecondPageTextFields({super.key});
 
   @override
   Widget build(BuildContext context) {
+    var provider = context.read<CreateAccountProvider>();
     return Column(
       children: [
         TextinputsField(

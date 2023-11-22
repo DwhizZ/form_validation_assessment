@@ -14,6 +14,7 @@ class ClosingLineTexts extends StatelessWidget {
     return FinalTexts(
         firstText: 'Already have an account?',
         followUpText: 'Login',
+        // TODO: extract this method into your provider
         onFollowUpClick: () {
           Navigator.pop(context);
         });

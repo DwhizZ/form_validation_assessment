@@ -18,8 +18,9 @@ class ForgetPasswordLine extends StatelessWidget {
             onTap: () {},
             child: Text(
               'Forget Password?',
-              style: AppStyles.subheaderStyle
-                  .copyWith(fontWeight: FontWeight.bold),
+              style: AppStyles.subheaderStyle.copyWith(
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ),
         )

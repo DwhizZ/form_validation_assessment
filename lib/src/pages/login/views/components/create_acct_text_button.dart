@@ -14,9 +14,9 @@ class CreateAccountTextButton extends StatelessWidget {
       firstText: 'Dont have account?',
       followUpText: 'Create a new account?',
       onFollowUpClick: () {
-        //noted: Don't write state (variables or methods) in your UI.
+        //TODO: Don't write state (variables or methods) in your UI.
         // Extract this method and put it in your provider
-        Navigator.pushNamed(context, RouteName.secondPage);
+        Navigator.pushNamed(context, RouteName.createAccountPage);
       },
     );
   }

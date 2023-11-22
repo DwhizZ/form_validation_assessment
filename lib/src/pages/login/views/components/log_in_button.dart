@@ -8,12 +8,12 @@ class LoginButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var provider = context.read<MainPageProvider>();
+    var provider = context.read<LoginProvider>();
     return Padding(
       padding: const EdgeInsets.only(bottom: 35),
       child: MyElevatedButton(
         buttonText: 'LOGIN',
-        onButtonClick: provider.fieldValidate
+        onButtonClick: provider.fieldValidate,
       ),
     );
   }

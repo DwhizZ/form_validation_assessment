@@ -3,8 +3,8 @@ import '../../../config/routes/route_name.dart';
 
 //done: This provider is located in the wrong folder.
 // It is not a widget component, it should have it's own folder called "providers"
-class MainPageProvider {
-  MainPageProvider(this.context);
+class LoginProvider {
+  LoginProvider(this.context);
 
   BuildContext context;
 
@@ -81,7 +81,7 @@ class MainPageProvider {
     //Done: Don't write state (variables or methods) in your UI.
     // Extract this method and put it in your provider
     if (areFieldsValid) {
-      Navigator.pushNamed(context, RouteName.secondPage);
+      Navigator.pushNamed(context, RouteName.createAccountPage);
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(

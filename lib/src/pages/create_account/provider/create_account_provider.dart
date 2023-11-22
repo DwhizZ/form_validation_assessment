@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 //DOne: This provider is located in the wrong folder.
 // It is not a widget component, it should have it's own folder called "providers"
-class SecondPageProvider {
-  SecondPageProvider(BuildContext context);
+class CreateAccountProvider {
+  CreateAccountProvider(BuildContext context);
 
   var nameController = TextEditingController();
   void onChangedName(String value) {
