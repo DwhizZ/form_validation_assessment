@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:form_validation_test/src/pages/login/provider/login_provider.dart';
 import 'package:provider/provider.dart';
 
 import '../../../../config/global_widgets/text_inputs_field.dart';
-import '../../provider/main_page_provider.dart';
 
 class MainPageTextFields extends StatelessWidget {
   const MainPageTextFields({super.key});
